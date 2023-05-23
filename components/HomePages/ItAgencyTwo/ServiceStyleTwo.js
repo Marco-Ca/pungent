@@ -15,12 +15,9 @@ const ServiceStyleTwo = () => {
                 data-aos-delay="100"
               >
                 <div className="info-head">
-                  <h2 className="title">Web & Mobile Development</h2>
+                  <h2 className="title">Capture 360 Images</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris.
+                  Immersive Virtual Tours: Step into a world of captivating experiences with our cutting-edge 360 image capture service. We transform spaces into immersive virtual tours that transport viewers to any location, anytime.
                   </p>
                 </div>
 
@@ -28,39 +25,34 @@ const ServiceStyleTwo = () => {
                   <div className="col-sm-6">
                     <div className="feature-list">
                       <i className="fa-solid fa-circle-check"></i>
-                      Responsive Design
+                      Explore Every Angle
                     </div>
                     <div className="feature-list">
                       <i className="fa-solid fa-circle-check"></i>
-                      Mobile App Development
+                      Interactive Virtual Walkthroughs
                     </div>
                     <div className="feature-list">
                       <i className="fa-solid fa-circle-check"></i>
-                      React Web Development
+                      Real Estate Showcase
                     </div>
                   </div>
 
                   <div className="col-sm-6">
                     <div className="feature-list">
                       <i className="fa-solid fa-circle-check"></i>
-                      UI / UX Design
+                      Tourism and Hospitality Promotion
                     </div>
                     <div className="feature-list">
                       <i className="fa-solid fa-circle-check"></i>
-                      Laravel Web Development
+                      Event Venue Previews
                     </div>
                     <div className="feature-list">
                       <i className="fa-solid fa-circle-check"></i>
-                      Angular Web Development
+                      Seamless Integration
                     </div>
                   </div>
                 </div>
 
-                <div className="service-read-more">
-                  <Link href="/service-details" className="btn btn-primary">
-                    <i className="fa-solid fa-list-check"></i> Read more
-                  </Link>
-                </div>
               </div>
             </div>
 

@@ -3,42 +3,42 @@ import Link from "next/link";
 
 const servicesData = [
   {
-    iconName: "pe-7s-comment bg-13c4a1",
-    title: "IT Consultancy",
+    iconName: "pe-7s-camera bg-13c4a1",
+    title: "Capture 360° Images",
     shortText:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.",
+      "Beautifully immersive & engaging 3D Virtual Tours",
     viewDetails: "/service-details",
     aosDelay: "100",
   },
   {
-    iconName: "pe-7s-display2 bg-6610f2",
-    title: "Web Development",
+    iconName: "pe-7s-comment bg-6610f2",
+    title: "Support 24/7",
     shortText:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.",
+      "We are here to help you with any questions you may have.",
     viewDetails: "/service-details",
     aosDelay: "200",
   },
   {
     iconName: "pe-7s-light bg-ffb700",
-    title: "Digital Marketing",
+    title: "Idea & Analysis",
     shortText:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.",
+      "We make your ideas come to life.",
     viewDetails: "/service-details",
     aosDelay: "300",
   },
   {
     iconName: "pe-7s-phone bg-fc3549",
-    title: "Mobile App Development",
+    title: "Mobile Friendly",
     shortText:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.",
+      "Our virtual tours are mobile friendly and can be viewed on any device.",
     viewDetails: "/service-details",
     aosDelay: "400",
   },
   {
     iconName: "pe-7s-cart bg-00d280",
-    title: "eCommerce Development",
+    title: "Fast Delivery",
     shortText:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.",
+      "We deliver your virtual tour within 72 hours or get your money back guaranteed.",
     viewDetails: "/service-details",
     aosDelay: "500",
   },
@@ -46,7 +46,7 @@ const servicesData = [
     iconName: "pe-7s-users bg-ff612f",
     title: "IT Solutions",
     shortText:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.",
+      "We provide IT solutions for your business. If you need a website, we can help!",
     viewDetails: "/service-details",
     aosDelay: "600",
   },
@@ -60,8 +60,7 @@ const OurServices = () => {
           <div className="section-title">
             <h2>Our Services</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna.
+              We create virtual tours and more.
             </p>
           </div>
 

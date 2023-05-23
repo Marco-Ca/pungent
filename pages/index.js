@@ -1,42 +1,50 @@
 import React from "react";
 import NavbarTwo from "../components/Layouts/NavbarTwo";
-import MainBanner from "../components/HomePages/StudioAgencyTwo/MainBanner";
-import Services from "../components/HomePages/StudioAgencyTwo/Services";
-import OurWorks from "../components/HomePages/StudioAgencyTwo/OurWorks";
+import MainBanner from "../components/HomePages/ItAgencyTwo/MainBanner";
+import OurServices from "../components/HomePages/ItAgencyTwo/OurServices";
+import ServiceStyleTwo from "../components/HomePages/ItAgencyTwo/ServiceStyleTwo";
+import WhyChooseUs from "../components/HomePages/ItAgencyTwo/WhyChooseUs";
 import FunFactsTwo from "../components/Common/FunFactsTwo";
-import About from "../components/HomePages/StudioAgencyTwo/About";
 import Feedback from "../components/Common/Feedback";
-import LatestNewsSlider from "../components/Common/LatestNewsSlider";
-import CtaAreaTwo from "../components/Common/CtaAreaTwo";
-import Partner from "../components/Common/Partner";
+import PricingStyleThree from "../components/Pricing/PricingStyleThree";
+import TeamStyleTwo from "../components/Common/TeamStyleTwo";
+import LatestNewsSliderTwo from "../components/Common/LatestNewsSliderTwo";
+import Newsletter from "../components/Common/Newsletter";
 import Footer from "../components/Layouts/Footer";
+import Partner from "../components/Common/Partner";
 
-const StudioAgency2 = () => {
+const ItAgency2 = () => {
   return (
     <>
       <NavbarTwo />
 
       <MainBanner />
 
-      <Services />
+      <OurServices />
 
-      <OurWorks />
+      <ServiceStyleTwo />
 
-      <FunFactsTwo />
+      <WhyChooseUs />
 
-      <About />
-
-      <Feedback />
-
-      <LatestNewsSlider />
-
-      <CtaAreaTwo />
+      {/* <FunFactsTwo />
 
       <Partner />
 
-      <Footer />
+      <Feedback />
+
+      <TeamStyleTwo />
+
+      <PricingStyleThree />
+
+      <LatestNewsSliderTwo />
+
+      <div className="pb-100">
+        <Newsletter />
+      </div>
+
+      <Footer /> */}
     </>
   );
 };
 
-export default StudioAgency2;
+export default ItAgency2;

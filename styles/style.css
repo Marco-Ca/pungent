@@ -680,6 +680,11 @@ Navbar CSS
 .navbar-area.navbar-style-2.is-sticky .navbar-nav > .nav-item > a {
   color: #18181b;
 }
+
+#company-name.is-sticky {
+  color: #18181b;
+}
+
 .navbar-area.navbar-style-3 .container {
   max-width: 1365px;
 }
