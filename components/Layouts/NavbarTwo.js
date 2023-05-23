@@ -41,14 +41,17 @@ const NavbarTwo = () => {
         <nav className="navbar navbar-expand-md navbar-light">
           <div className="container-fluid">
             <Link href="/" className="navbar-brand">
-              <Image
-                alt="header text"
-                src="/images/logo.svg"
-                className="sm:w-10 sm:h-10 w-9 h-9"
-                width={36}
-                height={36}
-              />
-              <p>Xpeerienz360</p>
+              {/* image and p on same line */}
+              <div className="flex-nav">
+                <Image
+                  alt="header text"
+                  src="/images/logo.svg"
+                  className="sm:w-10 sm:h-10 w-9 h-9"
+                  width={36}
+                  height={36}
+                />
+                <p>Xpeerienz360</p>
+              </div>
             </Link>
 
             {/* Toggle navigation */}
