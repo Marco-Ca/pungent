@@ -34,7 +34,7 @@ const MainBanner = () => {
             loop
             muted
             alt="App Promo"
-            src="/video/promo-video.mp4"
+            src="/video/bg-video.mp4"
             ref={videoEl}
           />
         </div>

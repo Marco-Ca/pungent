@@ -1,42 +1,36 @@
 import React from "react";
-import Navbar from "../components/Layouts/Navbar";
-import MainBanner from "../components/HomePages/DefaultHome/MainBanner";
-import Services from "../components/HomePages/DefaultHome/Services";
-import About from "../components/HomePages/DefaultHome/About";
-import OurWorks from "../components/HomePages/DefaultHome/OurWorks";
-import WorkProcess from "../components/HomePages/DefaultHome/WorkProcess";
+import NavbarTwo from "../components/Layouts/NavbarTwo";
+import MainBanner from "../components/HomePages/StudioAgencyTwo/MainBanner";
+import Services from "../components/HomePages/StudioAgencyTwo/Services";
+import OurWorks from "../components/HomePages/StudioAgencyTwo/OurWorks";
+import FunFactsTwo from "../components/Common/FunFactsTwo";
+import About from "../components/HomePages/StudioAgencyTwo/About";
 import Feedback from "../components/Common/Feedback";
-import Team from "../components/Common/Team";
-import FunFacts from "../components/Common/FunFacts";
 import LatestNewsSlider from "../components/Common/LatestNewsSlider";
-import CtaArea from "../components/Common/CtaArea";
+import CtaAreaTwo from "../components/Common/CtaAreaTwo";
 import Partner from "../components/Common/Partner";
 import Footer from "../components/Layouts/Footer";
 
-const Index = () => {
+const StudioAgency2 = () => {
   return (
     <>
-      <Navbar />
+      <NavbarTwo />
 
       <MainBanner />
 
       <Services />
 
-      <About />
-
       <OurWorks />
 
-      <WorkProcess />
+      <FunFactsTwo />
+
+      <About />
 
       <Feedback />
 
-      <Team />
-
-      <FunFacts />
-
       <LatestNewsSlider />
 
-      <CtaArea />
+      <CtaAreaTwo />
 
       <Partner />
 
@@ -45,4 +39,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default StudioAgency2;

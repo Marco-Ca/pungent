@@ -487,7 +487,7 @@ p, ul, ol {
 }
 .app-screenshots-slides .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: var(--gradientColor);
-  border: 1px solid #ff2c9c;
+  border: 1px solid #4fb758;
 }
 .app-screenshots-slides .app-screenshot-item {
   text-align: center;
